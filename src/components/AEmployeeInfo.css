@@ -1,0 +1,33 @@
+.employee-info-container {
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .filter-container {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .employee-info-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .employee-info-table th,
+  .employee-info-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .employee-info-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  

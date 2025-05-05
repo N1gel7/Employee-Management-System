@@ -1,0 +1,106 @@
+/* DashBoard.css */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.sidebar h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.sidebar li {
+  margin: 15px 0;
+  padding: 10px;
+  width: 100%;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.content-area {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dashboard-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px; 
+}
+
+.attendance,
+.payslip,
+.leave-application {
+  background-color: #f8f8f8; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 45%; 
+}
+
+.attendance h3,
+.payslip h3,
+.leave-application h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+.attendance {
+  margin-right: 2%; 
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button.view-btn {
+  background-color: #007bff;
+}
+
+button.view-btn:hover {
+  background-color: #0056b3;
+}

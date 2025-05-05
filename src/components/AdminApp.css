@@ -1,0 +1,128 @@
+
+.adminapp-container {
+    display: flex;
+    min-height: 100vh; 
+  }
+  
+  .sidebar {
+    width: 180px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1); 
+    height: 100vh; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1; 
+  }
+  
+  .sidebar h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 15px 0;
+  }
+  
+  .sidebar button {
+    width: 100%;
+    padding: 12px;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+    font-size: 1.1rem;
+    color: #333; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar button:hover {
+    background-color: #e0e0e0; 
+  }
+  
+  .content-area {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 250px; 
+    background-color: #fff;
+    min-height: 100vh;
+  }
+  
+  .departments-container h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333; 
+  }
+  
+  .departments-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .departments-table th,
+  .departments-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .departments-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #333; 
+  }
+  
+  .departments-table td {
+    color: #333; 
+  }
+  
+  .departments-table td button {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .departments-table td button:hover {
+    background-color: #0056b3;
+  }
+  
+  .departments-table td button.delete-btn {
+    background-color: #ff4d4d;
+  }
+  
+  .departments-table td button.delete-btn:hover {
+    background-color: #cc0000;
+  }
+  
+  .add-department-btn {
+    padding: 12px 25px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-department-btn:hover {
+    background-color: #218838;
+  }
+  

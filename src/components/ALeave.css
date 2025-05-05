@@ -1,0 +1,46 @@
+.leave-requests-container {
+    padding: 20px;
+  }
+  
+  .leave-requests-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .leave-requests-table th, .leave-requests-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .leave-requests-table th {
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .approve-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .approve-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .decline-btn {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  .decline-btn:hover {
+    background-color: #cc0000;
+  }
+  
